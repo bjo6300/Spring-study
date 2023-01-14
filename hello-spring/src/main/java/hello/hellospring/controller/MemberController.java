@@ -15,7 +15,7 @@ public class MemberController {
 
     private final MemberService memberService;
 
-    /*@Autowired // setter 주 -> public 설정해야해서 노출된다.
+    /*@Autowired // setter 주입 -> public 설정해야해서 노출된다.
     public void setMemberService(MemberService memberService) {
         this.memberService = memberService;
     }*/
